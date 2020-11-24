@@ -4,7 +4,7 @@ library(checkmate)
 
 # a) ----------------------------------------------------------------------
 
-# rewritten correlation function
+# rewritten code
 set.seed(20141012)
 x <- sample(x = c(1:10, NA), size = 20, replace = TRUE)
 y <- runif(n = 20, min = 0, max = 1)
@@ -28,7 +28,7 @@ f1 <- function(x = {
 
 # This principle is called lazy evaluation.
 # Inputs are evaluated only when they are actually used.
-# Or in the order in which they are used.
+# or in the order in which they are used.
 
 
 
